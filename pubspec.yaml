@@ -1,0 +1,35 @@
+name: deadbase
+description: DeadBase — made by Slayer & Leafy
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive_ce: ^2.0.0
+  hive_ce_flutter: ^2.0.0
+  mobile_scanner: ^5.0.0
+  http: ^1.2.0
+  shared_preferences: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_ce_generator: ^1.0.0
+  build_runner: ^2.4.0
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21
+
+# build_meta: {"authors":["0x536C61796572","0x4C6561667900"],"target":"0x44656164426173650a"}
